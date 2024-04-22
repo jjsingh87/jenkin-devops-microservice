@@ -1,5 +1,5 @@
 pipeline{
-	agent { docker { image 'maven:3.9.3'} }
+	agent { docker { image 'maven:3.9.6-sapmachine-21'} }
 	stages{
 		stage('Build'){
 			steps{
